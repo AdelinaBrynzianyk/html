@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.slogan {
+    color: #FFF;
+}
+
+.slogan-background {
+    background-color: #2F303A;
+    ;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav {
+    color: #212121;
+}
+
+.site-nav:hover {
+    color: #2196F3;
+}
+
+.contacts-nav {
+    color: #757575;
+}
+
+.contacts-nav:hover {
+    color: #2196F3;
+}
+
+.featuer-list .title {}
+
+.button {
+    background-color: #2196F3;
+    color: #FFF;
+}
