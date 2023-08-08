@@ -1,15 +1,28 @@
 body {
     background-color: white;
     color: black;
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    font-family: Raleway;
+    text-decoration: none;
 }
 
 .slogan {
     color: #FFF;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
 }
 
 .slogan-background {
     background-color: #2F303A;
-    ;
 
 }
 
@@ -17,8 +30,47 @@ ul {
     list-style: none;
 }
 
+.title_pros {
+
+
+    font-size: 14px;
+
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.text_pros {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.chapter {
+
+    text-align: center;
+    font-size: 36px;
+
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
 .site-nav {
-    color: #212121;
+
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
 }
 
 .site-nav:hover {
@@ -27,6 +79,7 @@ ul {
 
 .contacts-nav {
     color: #757575;
+    text-decoration: none;
 }
 
 .contacts-nav:hover {
@@ -35,7 +88,49 @@ ul {
 
 .featuer-list .title {}
 
-.button {
+button {
     background-color: #2196F3;
     color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.96px;
+}
+
+footer {
+    background: #2F303A;
+}
+
+/* pprtfoly */
+.portfoly_button {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.projects_name {
+
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+
+    letter-spacing: 1.08px;
+}
+
+.project_type {
+    color: #757575;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+
+    letter-spacing: 0.48px;
 }
