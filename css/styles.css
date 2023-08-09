@@ -5,10 +5,14 @@ body {
 }
 
 .logo {
+    color: #2196F3;
     font-family: Raleway;
     text-decoration: none;
 }
+.logo.studio{
+color: #212121;
 
+}
 .slogan {
     color: #FFF;
     color: #FFF;
@@ -88,7 +92,7 @@ ul {
 
 .featuer-list .title {}
 
-button {
+.main_button {
     background-color: #2196F3;
     color: #FFF;
     text-align: center;
