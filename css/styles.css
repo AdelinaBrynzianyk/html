@@ -8,11 +8,16 @@ body {
     color: #2196F3;
     font-family: Raleway;
     text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
-.logo.studio{
-color: #212121;
 
+.studio {
+    color: #000;
 }
+
 .slogan {
     color: #FFF;
     color: #FFF;
@@ -67,6 +72,24 @@ ul {
     background: #F5F4FA;
 }
 
+.team_name {
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.team_position {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
 .site-nav {
 
 
@@ -103,11 +126,13 @@ ul {
     letter-spacing: 0.96px;
 }
 
-footer {
-    background: #2F303A;
+.main_button :hover .portfoly_button {
+    cursor: pointer;
 }
 
-/* pprtfoly */
+
+
+/* portfoly */
 .portfoly_button {
     color: #212121;
     text-align: center;
@@ -117,6 +142,10 @@ footer {
     letter-spacing: 0.48px;
     border-radius: 4px;
     background: #F5F4FA;
+}
+
+.portfoly_button :hover {
+    color: #2196F3;
 }
 
 .projects_name {
@@ -137,4 +166,21 @@ footer {
     line-height: 1.9;
 
     letter-spacing: 0.48px;
+}
+footer {
+    background: #2F303A;
+}
+
+.footer_logo {
+    color: #FFF;
+}
+
+.address {
+    color: #FFF;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    letter-spacing: 0.42px;
 }
