@@ -118,19 +118,22 @@ ul {
 .main_button {
     background-color: #2196F3;
     color: #FFF;
-    text-align: center;
     cursor: pointer;
+    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.96px;
 }
 
-.main_button :hover .portfoly_button {
+.main_button:hover {
     cursor: pointer;
+    background-color: #188ceb;
 }
-
-
+.main_button:focus {
+   outline-color: transparent;
+   outline-style: solid;
+}
 
 /* portfoly */
 .portfoly_button {
@@ -145,8 +148,13 @@ ul {
     background: #F5F4FA;
 }
 
-.portfoly_button :hover {
-    color: #2196F3;
+.portfoly_button:hover {
+    cursor: pointer;
+    background-color: #2196F3;
+}
+.portfoly_button:focus {
+    outline-color: transparent;
+    outline-style: solid;
 }
 
 .projects_name {
@@ -168,6 +176,7 @@ ul {
 
     letter-spacing: 0.48px;
 }
+
 footer {
     background: #2F303A;
 }
